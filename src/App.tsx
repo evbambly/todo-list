@@ -30,7 +30,7 @@ function App() {
       <Content className="site-layout-content" style={{height:"100%", overflow: "scroll"}}>
         {isLoading ? <Spin tip="Loading..." /> : <TodoList />}
       </Content>
-      <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
+      <Footer style={{ textAlign: 'center' }}>Ant Design ©2022 Used by Ethan Victor</Footer>
     </Layout>
   );
 }
